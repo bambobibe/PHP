@@ -1,0 +1,40 @@
+.navbar{
+	background-color: white !important;
+}
+.nav-item a{
+	color: black !important;
+}
+.nav-item a:hover{
+	font-weight: bolder;
+}
+.carousel-inner img{
+	width: 100%;
+}
+ul li{
+	display: inline-block;
+	font-style: none;
+	text-align: center;
+}
+.solid a{
+	font-size: 5em;
+	padding: 3rem;
+}
+.fa-react{
+	color: red !important;
+	color:#81D8F7;
+	font-size: 4em;
+	margin: 1rem;
+}
+.fa-angular{
+	color:rgb(177,43,55);
+	font-size: 4em;
+	margin: 1rem;
+}
+.fa-css3{
+	color:#D76537;
+	font-size: 4em;
+	margin: 1rem;
+}
+.img-responsive{
+
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tin tức</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Assets/Frontend/css/stylett.css">
+	<script type="text/javascript" src="Assets/Frontend/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(function(){
+			var slide = new Array();
+			slide[0] = "Assets/Frontend/images/banner.jpg";
+			slide[1] = "Assets/Frontend/images/banner1.jpg";
+			slide[2] = "Assets/Frontend/images/banner2.jpg";
+			var n=0;
+			setInterval(function(){
+					
+					$("#img-banner").attr("src",slide[n]);
+						n++;
+						if (n==slide.length)
+						n=0;
+				},2500);
+		});
+	</script>
+ <div class="wraper">
+ 	<div class="menu">
+		<ul>
+			<li><a href="#">Phòng</a></li>
+			<li>|</li>
+			<li><a href="#">Khoa</a></li>
+			<li>|</li>
+			<li><a href="#">Trung tâm đào tạo</a></li>
+			<li>|</li>
+			<li><a href="#">Trung tâm dịch vụ</a></li>
+			<li>|</li>
+			<li><a href="#">Viện nghiên cứu</a></li>
+			<li>|</li>
+			<li><a href="#">Tạp chí KH&CN</a></li>
+			<li>|</li>
+			<li><a href="#">Công ty Letco</a></li>
+			<li>|</li>
+			<li><a href="#">Thư điện tử</a></li>
+		</ul>
+		<div class="ngonngu">
+			<ul>
+				<li><a href="#">Đăng ký</a></li>
+				<li><a href="#">Đăng nhập</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header">
+		<div class="logo">
+			<img src="Assets/Frontend/images/logo.png">
+		</div>
+		<div class="header-menu">
+			<ul>
+				<li><a href="#">GIỚI THIỆU</a></li>
+				<li><a href="#">TUYỂN SINH</a></li>
+				<li><a href="#">ĐÀO TẠO</a></li>
+				<li><a href="#">KHOA HỌC CÔNG NGHỆ</a></li>
+				<li><a href="#">HỢP TÁC ĐỐI NGOẠI</a></li>
+				<li><a href="#">SINH VIÊN</a></li>
+				<li><a href="#">EGOV</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner" style="padding-left: 120px;">
+		<img src="Assets/Frontend/images/banner.jpg" id="img-banner">
+		<span style="padding: 25px;float: left;font-size: 25px;"><a href="#">Trang Chủ&nbsp;</a>><a href="#">&nbsp;Tin Tức</a></span>
+	</div>
+	<div class="tintuc">
+		<div class="left">
+			<ul>
+				<li><img src="Assets/Frontend/images/1.jpg">
+					<h3><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h3>
+					<p>Sáng ngày 08/9/2019, học viên, sinh viên Đại học Công nghiệp Hà Nội (ĐHCNH) tưng bừng trong Lễ khai giảng năm học 2019 - 2020, bắt đầu một hành trình mới, một năm học mới đầy màu sắc tại ĐHCNHN. Năm học thứ 121 ghi dấu ấn trên con đường phát triển và ngày càng khẳng định vị thế danh tiếng của mình, Đại học Công nghiệp Hà Nội vinh dự đón Bộ trưởng Bộ Công Thương Trần Tuấn Anh về dự Lễ khai giảng và chúc mừng nhà trường</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/2.jpg">
+					<h3><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h3>
+					<p>Chiều ngày 05/9/2019, Trường Đại học Công nghiệp Hà Nội tổ chức buổi gặp mặt chào đón 18 sinh viên chuyên ngành Ngôn ngữ Anh thuộc Viện Ngôn ngữ, Trường Đại học Khoa học Kỹ thuật Quảng Tây đến tham gia chương trình trao đổi sinh viên năm học 2019 - 2020.</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/3.jpg">
+					<h3><a href="#">Phóng sự "Mô hình Hệ thống Đại học Điện tử" của Trường Đại học Công nghiệp Hà Nội phát sóng trên kênh truyền hình VTV1</a></h3>
+					<p>Phóng sự Mô hình Hệ thống Đại học Điện tử đầu tiên của Việt Nam do Trường Đại học Công nghiệp Hà Nội nghiên cứu và ứng dụng, phát sóng trong chương trình Quốc gia số, kênh VTV1, Đài truyền hình Việt Nam.</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/1.jpg">
+					<h3><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h3>
+					<p>Sáng ngày 08/9/2019, học viên, sinh viên Đại học Công nghiệp Hà Nội (ĐHCNH) tưng bừng trong Lễ khai giảng năm học 2019 - 2020, bắt đầu một hành trình mới, một năm học mới đầy màu sắc tại ĐHCNHN. Năm học thứ 121 ghi dấu ấn trên con đường phát triển và ngày càng khẳng định vị thế danh tiếng của mình, Đại học Công nghiệp Hà Nội vinh dự đón Bộ trưởng Bộ Công Thương Trần Tuấn Anh về dự Lễ khai giảng và chúc mừng nhà trường</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/2.jpg">
+					<h3><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h3>
+					<p>Chiều ngày 05/9/2019, Trường Đại học Công nghiệp Hà Nội tổ chức buổi gặp mặt chào đón 18 sinh viên chuyên ngành Ngôn ngữ Anh thuộc Viện Ngôn ngữ, Trường Đại học Khoa học Kỹ thuật Quảng Tây đến tham gia chương trình trao đổi sinh viên năm học 2019 - 2020.</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/3.jpg">
+					<h3><a href="#">Phóng sự "Mô hình Hệ thống Đại học Điện tử" của Trường Đại học Công nghiệp Hà Nội phát sóng trên kênh truyền hình VTV1</a></h3>
+					<p>Phóng sự Mô hình Hệ thống Đại học Điện tử đầu tiên của Việt Nam do Trường Đại học Công nghiệp Hà Nội nghiên cứu và ứng dụng, phát sóng trong chương trình Quốc gia số, kênh VTV1, Đài truyền hình Việt Nam.</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/1.jpg">
+					<h3><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h3>
+					<p>Sáng ngày 08/9/2019, học viên, sinh viên Đại học Công nghiệp Hà Nội (ĐHCNH) tưng bừng trong Lễ khai giảng năm học 2019 - 2020, bắt đầu một hành trình mới, một năm học mới đầy màu sắc tại ĐHCNHN. Năm học thứ 121 ghi dấu ấn trên con đường phát triển và ngày càng khẳng định vị thế danh tiếng của mình, Đại học Công nghiệp Hà Nội vinh dự đón Bộ trưởng Bộ Công Thương Trần Tuấn Anh về dự Lễ khai giảng và chúc mừng nhà trường</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+				<li><img src="Assets/Frontend/images/2.jpg">
+					<h3><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h3>
+					<p>Chiều ngày 05/9/2019, Trường Đại học Công nghiệp Hà Nội tổ chức buổi gặp mặt chào đón 18 sinh viên chuyên ngành Ngôn ngữ Anh thuộc Viện Ngôn ngữ, Trường Đại học Khoa học Kỹ thuật Quảng Tây đến tham gia chương trình trao đổi sinh viên năm học 2019 - 2020.</p>
+					<span><a href="#">xem thêm</a></span>
+				</li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="seach">
+				<input type="text" placeholder="Tìm kiếm" name="" style="width: 260px;height: 30px; padding-left: 30px;float: left;">
+				<img src="Assets/Frontend/images/seach.png" style="width: 30px;height: 30px; padding-left: 0px;
+				margin: 0px; padding-top: 5px;float: left;">
+			</div>
+			<div class="video">
+				<p>Video giới thiệu</p>
+				<iframe width="380" height="300" src="https://www.youtube.com/embed/mpIyV4xFf2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="diemtin">
+				<p>ĐIỂM TIN</p>
+				<ul>
+					<li><img src="Assets/Frontend/images/1.jpg">
+						<h4><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/2.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/3.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/1.jpg">
+						<h4><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h3>
+					</li>
+					<li><img src="Assets/Frontend/images/2.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/3.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/1.jpg">
+						<h4><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020</a></h3>
+					</li>
+					<li><img src="Assets/Frontend/images/2.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+					<li><img src="Assets/Frontend/images/3.jpg">
+						<h4><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></h4>
+					</li>
+				</ul>
+
+			 </div>
+			 <div class="lienket">
+			 	<p>Liên kết site</p>
+			 	<ul>
+			 		<li><a href="#">Khởi nghiệp cùng HaUI</a></li>
+			 		<li><a href="#">Thông tin tuyển sinh Đại học</a></li>
+			 		<li><a href="#">Thể thao sinh viên</a></li>
+			 		<li><a href="#">Đời sống sinh viên</a></li>
+			 		<li><a href="#">Sinh viên tìm hiểu công nghệ</a></li>
+			 		<li><a href="#">Giáo dục đại học</a></li>
+			 		<li><a href="#">Khám phá đất nước Việt Nam</a></li>
+			 		<li><a href="#">Xế cưng</a></li>
+			 		<li><a href="#">Bất động sản Việt</a></li>
+			 		<li><a href="#">Tìm việc làm</a></li>
+
+			 	</ul>
+			 </div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="logo-footer">
+			<img src="Assets/Frontend/images/logo.png" style="width: 350px; height: 70px;">
+			<img src="Assets/Frontend/images/bando.jpg" style="width: 300px; height: 180px;padding-left: 30px;">
+		</div>
+		<div class="truso">
+			<ul>
+				<li><b>Trụ sở chính:</b>  Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội</li>
+				<li>Cơ sở 2: Phường Tây Tựu, quận Bắc Từ Liêm, Hà Nội</li>
+				<li>Cơ sở 3: Phường Lê Hồng Phong, thành phố Phủ Lý, Hà Nam</li>
+			</ul>
+		</div>
+	</div>
+	<div class="end" style="float: left; background-color: blue; color: white; text-align: center; width: 100%; ">
+		<p>Copyright © 2018 Đại Học Công Nghiệp Hà Nội</p>
+	</div>
+ </div>
+</body>
+</html>

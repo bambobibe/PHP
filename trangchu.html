@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Assets/Frontend/css/style.css">
+	<script type="text/javascript" src="Assets/Frontend/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(function(){
+			var slide = new Array();
+			slide[0] = "Assets/Frontend/images/banner.jpg";
+			slide[1] = "Assets/Frontend/images/banner1.jpg";
+			slide[2] = "Assets/Frontend/images/banner2.jpg";
+			var n=0;
+			setInterval(function(){
+					
+					$("#img-banner").attr("src",slide[n]);
+						n++;
+						if (n==slide.length)
+						n=0;
+				},2500);
+		});
+	</script>
+<div class="wraper">
+	<div class="menu">
+		<ul>
+			<li><a href="#">Phòng</a></li>
+			<li>|</li>
+			<li><a href="#">Khoa</a></li>
+			<li>|</li>
+			<li><a href="#">Trung tâm đào tạo</a></li>
+			<li>|</li>
+			<li><a href="#">Trung tâm dịch vụ</a></li>
+			<li>|</li>
+			<li><a href="#">Viện nghiên cứu</a></li>
+			<li>|</li>
+			<li><a href="#">Tạp chí KH&CN</a></li>
+			<li>|</li>
+			<li><a href="#">Công ty Letco</a></li>
+			<li>|</li>
+			<li><a href="#">Thư điện tử</a></li> 
+		</ul>
+		<div class="ngonngu">
+			<ul>
+				<li><a href="#">Đăng ký</a></li>
+				<li><a href="#">Đăng nhập</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header">
+		<div class="logo">
+			<img src="Assets/Frontend/images/logo.png">
+		</div>
+		<div class="header-menu">
+			<ul>
+				<li><a href="#">GIỚI THIỆU</a></li>
+				<li><a href="#">TUYỂN SINH</a></li>
+				<li><a href="#">ĐÀO TẠO</a></li>
+				<li><a href="#">KHOA HỌC CÔNG NGHỆ</a></li>
+				<li><a href="#">HỢP TÁC ĐỐI NGOẠI</a></li>
+				<li><a href="#">SINH VIÊN</a></li>
+				<li><a href="#">EGOV</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<img src="Assets/Frontend/images/banner.jpg" id="img-banner">
+	</div>
+	<div class="main">
+		<div class="tt"><p style="font-size: 25px;"><a href="#">_________TIN TỨC_________</a></p></div>
+		<div class="tintuc">
+			<ul>
+				<li><img src="Assets/Frontend/images/tin1.jpg"><a href="#">Đại học Công nghiệp Hà Nội tưng bừng khai giảng năm học 2019 - 2020 , Chào đón tân sinh viên từ mọi miền tổ quốc</a></li>
+				<li><img src="Assets/Frontend/images/tin2.jpg"><a href="#">Sinh viên Trường Đại học Khoa học kỹ thuật Quảng Tây - Trung Quốc tham gia chương trình trao đổi sinh viên tại Đại học Công nghiệp Hà Nội</a></li>
+				<li><img src="Assets/Frontend/images/tin3.jpg"><a href="#">Phóng sự "Mô hình Hệ thống Đại học Điện tử" của Trường Đại học Công nghiệp Hà Nội phát sóng trên kênh truyền hình VTV1</a></li>
+			</ul>
+		</div>
+		<div class="tintieudiem">
+			<p style="font-weight: bold; font-size: 25px; padding: 0px;margin: 0px;">_____________________</p>
+			<p style="font-weight: bold; font-size: 20px; padding-left: 70px;margin: 0px;">TIN TIÊU ĐIỂM</p>
+			<div class="haui-tv">
+				<img src="Assets/Frontend/images/haui-tv.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="logo-footer">
+			<img src="Assets/Frontend/images/logo.png" style="width: 350px; height: 70px;">
+			<img src="Assets/Frontend/images/bando.jpg" style="width: 300px; height: 180px;padding-left: 30px;">
+		</div>
+		<div class="truso">
+			<ul>
+				<li><b>Trụ sở chính:</b>  Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội</li>
+				<li>Cơ sở 2: Phường Tây Tựu, quận Bắc Từ Liêm, Hà Nội</li>
+				<li>Cơ sở 3: Phường Lê Hồng Phong, thành phố Phủ Lý, Hà Nam</li>
+			</ul>
+		</div>
+	</div>
+	<div class="end" style="float: left; background-color: blue; color: white; text-align: center; width: 100%; ">
+		<p>Copyright © 2018 Đại Học Công Nghiệp Hà Nội</p>
+	</div>
+</div>
+</body>
+</html>
